@@ -24,4 +24,12 @@ pacman -S networkmanager
 
 systemctl enable NetworkManager
 
+echo "Senha para root"
+passwd
+
+useradd -m -g users -G wheel lucasluz
+
+echo "Senha para lucasluz";	
+passwd lucasluz;
+
 echo "Script_2 Finalizado"
