@@ -22,4 +22,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman -S networkmanager
 
+systemctl enable NetworkManager
+
 echo "Script_2 Finalizado"
